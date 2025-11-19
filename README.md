@@ -959,46 +959,15 @@ IconButton(onClick = { viewModel.deleteProduct(product) }) {
     Icon(Icons.Default.Delete, "Eliminar")
 }
 ```
-
----
-
-## 📝 Buenas Prácticas Aplicadas
-
-### Código
-
-✅ Nomenclatura clara y descriptiva  
-✅ Comentarios en español para contexto  
-✅ Separación de responsabilidades por capas  
-✅ Uso de KTX extensions (edit, collectAsState, etc.)  
-✅ Manejo de estados con StateFlow/Flow  
-
-### UI
-
-✅ Material Design 3 consistente  
-✅ Navegación simple con 4 pantallas  
-✅ Diálogos modales para formularios  
-✅ LazyColumn/LazyRow para listas  
-✅ Iconos descriptivos y accesibles  
-
-### Datos
-
-✅ Carga de datos solo en primer inicio  
-✅ Persistencia automática con Room  
-✅ Consultas reactivas con Flow  
-✅ Conversores de tipo para Date  
-
-### Arquitectura
-
-✅ MVVM con Repository Pattern  
-✅ Single Source of Truth  
-✅ Dependency Injection manual clara  
-✅ Separación de capas bien definida  
-
 ---
 
 ## 👥 Autores
 
-**TAYTOS** - [GitHub](https://github.com/TAYTOS)
+- **Betanzos Rosas Taylor Anthony**
+- **Ccahuana Larota Joshep Antony**
+- **Condorios Yllapuma Jorge Enrique**
+- **Umasi Coaguila Geraldine Marjorie**
+- **Valdivia Luna Carlo Joaquin**
 
 ---
 
