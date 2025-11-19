@@ -6,12 +6,29 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ProductDao {
-    @Query("SELECT * FROM products")
-    fun getAll(): Flow<List<Product>>
 
-    @Query("SELECT * FROM products WHERE categoryId = :id")
-    fun getByCategory(id: Int): Flow<List<Product>>
-
+    // Create
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(product: Product)
+
+    // Read
+    @Query("SELECT * FROM Product")
+    fun getAll(): Flow<List<Product>>
+
+    @Query("SELECT * FROM Product WHERE categoryId = :id")
+    fun getByCategory(id: Int): Flow<List<Product>>
+
+    @Query("SELECT * FROM Product WHERE productId = :id")
+    suspend fun getById(id: Int): Product?
+
+    // Update
+    @Update
+    suspend fun update(product: Product)
+
+    // Delete
+    @Delete
+    suspend fun delete(product: Product)
+
+    @Query("DELETE FROM Product WHERE categoryId = :id")
+    suspend fun deleteByCategory(id: Int)
 }

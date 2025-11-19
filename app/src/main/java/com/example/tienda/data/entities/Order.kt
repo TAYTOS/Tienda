@@ -4,9 +4,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.util.Date
 
-@Entity(tableName = "orders")
+@Entity(tableName = "Orders")
 data class Order(
     @PrimaryKey(autoGenerate = true) val orderId: Int = 0,
     val customerId: Int,
-    val fecha: Date
+    val orderDate: Date
 )
