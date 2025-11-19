@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Coca Cola 1.5L",
+    "price": 4.50,
+    "categoryId": 1
+  },
+  {
+    "name": "Inca Kola 2L",
+    "price": 5.00,
+    "categoryId": 1
+  },
+  {
+    "name": "Agua San Luis 625ml",
+    "price": 1.50,
+    "categoryId": 1
+  },
+  {
+    "name": "Cerveza Pilsen 330ml",
+    "price": 3.50,
+    "categoryId": 1
+  },
+  {
+    "name": "Arroz Costeño 1kg",
+    "price": 4.20,
+    "categoryId": 2
+  },
+  {
+    "name": "Azúcar Blanca 1kg",
+    "price": 3.80,
+    "categoryId": 2
+  },
+  {
+    "name": "Aceite Primor 1L",
+    "price": 8.50,
+    "categoryId": 2
+  },
+  {
+    "name": "Fideo Don Vittorio 250g",
+    "price": 2.00,
+    "categoryId": 2
+  },
+  {
+    "name": "Leche Gloria 1L",
+    "price": 4.50,
+    "categoryId": 3
+  },
+  {
+    "name": "Yogurt Gloria 1L",
+    "price": 6.00,
+    "categoryId": 3
+  },
+  {
+    "name": "Queso Fresco 500g",
+    "price": 12.00,
+    "categoryId": 3
+  },
+  {
+    "name": "Mantequilla Gloria 200g",
+    "price": 7.50,
+    "categoryId": 3
+  },
+  {
+    "name": "Papas Lays 150g",
+    "price": 5.50,
+    "categoryId": 4
+  },
+  {
+    "name": "Doritos 140g",
+    "price": 5.00,
+    "categoryId": 4
+  },
+  {
+    "name": "Galletas Oreo 432g",
+    "price": 8.90,
+    "categoryId": 4
+  },
+  {
+    "name": "Chocolate Sublime 30g",
+    "price": 2.00,
+    "categoryId": 4
+  },
+  {
+    "name": "Detergente Ariel 900g",
+    "price": 12.50,
+    "categoryId": 5
+  },
+  {
+    "name": "Lejía Clorox 1L",
+    "price": 4.50,
+    "categoryId": 5
+  },
+  {
+    "name": "Papel Higiénico Elite 4un",
+    "price": 6.50,
+    "categoryId": 5
+  },
+  {
+    "name": "Jabón Bolívar 3un",
+    "price": 3.00,
+    "categoryId": 5
+  },
+  {
+    "name": "Pan Francés",
+    "price": 0.30,
+    "categoryId": 6
+  },
+  {
+    "name": "Pan Integral",
+    "price": 0.50,
+    "categoryId": 6
+  },
+  {
+    "name": "Tostadas Bimbo",
+    "price": 5.50,
+    "categoryId": 6
+  },
+  {
+    "name": "Pan de Molde Bimbo",
+    "price": 6.00,
+    "categoryId": 6
+  }
+]
+
