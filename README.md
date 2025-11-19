@@ -17,11 +17,6 @@ Aplicación Android nativa desarrollada con **Jetpack Compose** y **Room Databas
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Base de Datos](#-base-de-datos)
 - [Instalación](#-instalación)
-- [Configuración](#-configuración)
-- [Uso](#-uso)
-- [API del Repositorio](#-api-del-repositorio)
-- [Contribución](#-contribución)
-- [Licencia](#-licencia)
 
 ---
 
